@@ -22,6 +22,19 @@ tar -zxvf ~/Downloads/vsts-agent-linux-x64-5.278.0.tar.gz
 ./config.sh
 ```
 
+- add information
+
+```sh
+Enter server URL > https://dev.azure.com/yourOrganization
+Enter authentication type (press enter for PAT)
+Enter personal access token > ********
+
+Enter agent pool > namePoolLocalHost
+Enter agent name > exampleLocalHostAgent
+
+Enter work folder (press enter for _work) >
+```
+
 - execute agent
 
 ```sh
